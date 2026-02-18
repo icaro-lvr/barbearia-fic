@@ -10,13 +10,9 @@ body {
   min-height: 100vh;
   margin: 0 !important; 
   font-family: var(--font-poppins), sans-serif;
+  text-align: center;
 }
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-poppins), sans-serif;
 }
 
-h1{
-  font-family: var(--font-vibes, cursive);
-  font-size: 50px;
-  color: #B2987D;
-}

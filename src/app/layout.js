@@ -1,15 +1,8 @@
 import { Poppins } from 'next/font/google';
-import { Great_Vibes } from 'next/font/google';
 import './globals.css';
 import Head from  "next/head"
 
 // 1. Configuramos a fonte fora do componente
-
-const fonteLogo = Great_Vibes ({
-  weight: '400',
-  subsets: ['latin'],
-  variable: '--font-vibes'
-})
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -33,7 +26,6 @@ export default function RootLayout({ children }) {
       
         {children}     
         
-        <h1 className={fonteLogo.className} style={{color: '#B2987D', fontSize: '50px'}}>S. Kelly</h1>
             
       </body>
     </html>
